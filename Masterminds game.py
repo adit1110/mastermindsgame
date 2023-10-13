@@ -55,7 +55,7 @@ def check_code(guess, real_code):
 
 def game():
 
-    print("Welcome to mastermind, you have {TRIES} to guess the code...")
+    print("Welcome to mastermind, you have" ,{TRIES}, "to guess the code...")
     print("The valid colors are", *COLORS)
 
     code = generate_code()
